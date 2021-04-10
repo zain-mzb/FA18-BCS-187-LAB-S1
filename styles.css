@@ -1,3 +1,81 @@
-h1{
-    color:blue;
-}
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("./images/bg1.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav a{
+      margin-left:2.5rem;
+      margin-top: 1rem;
+  }
+
+  h2{
+      text-align: center;
+      margin-top:1rem;
+    
+  }
+
+  .card{
+      
+      display:inline;
+     margin-left: 3rem;
+     margin-bottom: 3rem;
+  }
+
+  .crd{
+      margin-top:2rem ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .topdiv{
+      padding-left:3rem;
+      padding-right:3rem;
+      padding-top: 1rem;
+  }
+
+  h5{
+      text-align: center;
+      display:inline-block;
+      
+  }
+  .call{
+      
+      border: 4px dotted black;
+      border-radius: 30px;
+      text-align: center;
+  }
+
+  .ft{
+      margin-top: 3rem;
+      background-color: gray;
+  }
+
+  footer div{
+      display: inline-block;
+      margin: 3rem;
+      margin-left: 6rem;
+  }
+
+  footer p{
+      color:white;
+  }
+  footer a{
+      color: white;
+  }
+
+  h4{
+      color: white;
+  }
